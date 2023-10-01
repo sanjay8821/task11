@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+.full-container {
+height: 100vh;
+}
+
+.header-container{
+    height: 10%;
+    background-color: #2F3D46;
+    display: flex;
+}
+
+ .logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.title {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+} 
+
+.body-container{
+    height: 90%;
+    background-color:#CAD2C5 ;
+    display: flex;
+}
+
+.left-side{
+    width: 30%;
+    padding: 3em;
+}
+
+.leftbar{
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #353535;
+    margin: 0 1em;
+}
+
+.right-side{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+     }
+
+.input {
+    width: 70%;
+    height: 50px;
+    background-color:#353535;
+    padding: 0 1em ;
+    border-radius: 10px;
+    font-size: 24px;
+
+}
+
+.card-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.card {
+    height: 160px;
+    width: 25%;
+    background-color:#353535 ;
+    border-radius: 20px;
+}
+
+.bottom-bar {
+height: 140px;
+    width: 100%;
+    background-color:#353535 ;
+    border-radius: 20px;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+
+}
+
